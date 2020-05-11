@@ -8,7 +8,7 @@
         <meta name="author" content="" />
         <title>Matt's Personal Site</title>
         <link href="css/defaultstyles.css" rel="stylesheet" />
-        <link href="paper-kit.css" rel="stylesheet"/>
+        <link href="paper-kit-2-html-v2.2.0/assets/css/paper-kit.css" rel="stylesheet"/>
         <link href="styles.css" rel="stylesheet" />
     </head>
 
@@ -16,7 +16,8 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Matthew's Website</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand js-scroll-trigger" href="index.html">Professional</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand js-scroll-trigger" href="personal.html">Personal</a><button class="navbar-toggler navbar-toggler-switch" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
@@ -32,10 +33,10 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div>
-                        <h1 id = "welcome" >Software Developer | Game Developer | Computer Engineer</h1>
-                        <hr id = line1>
+                        <h1 class = "welcome">Software Developer | Game Developer | Computer Engineer</h1>
+                        <hr id = "line1">
                     </div>
-                    <div id = "btndiv" class="col-lg-8 align-self-baseline">
+                    <div id = "btndiv" class="col-lg-10 align-self-baseline"> 
                         <a id="info" class="btn btn-primary btn-round js-scroll-trigger" href="#about">About Me</a>
                     </div> 
                 </div>
@@ -53,7 +54,8 @@
                             <br>
                             <div class = "paragraphdiv" >
                                 <p>My name is Matthew Panizza. I am a Computer Engineering student at the University of Waterloo.</p>
-                            </div>
+                                <p>Currently, I am focusing on learning: <b>Fullstack</b> Development, <b>Software</b> Development, and <b>Game</b> Development.</p>
+                                <p><b>Langauges:</b> Java, Javascript, Python, C++, C#<br><b>Tools:</b> HTML/CSS, Unity, ReactJS, BootStrap4</p>
                         </div>
                 </div>
             </div>
@@ -100,38 +102,45 @@
                 <h1>My Projects</h1>
             </div><br>
             <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                    <div class="card col-6" >
+                <div class="customflex row no-gutters">
+                    <div class="card col-5" >
                         <a class="portfolio-box" href="https://github.com/ShrillHarrier/Turret-Warfare"
                             ><img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
                             <div class="portfolio-box-caption">
                                 <div class="project-name">Turret Warfare</div>
                             </div></a>
                         <p class="card-text">A turret-defense game based in a military setting.</p>
+                        <br>
+                        <p class="card-text">Langauges: Unity, C#, Google Drawings</p>
                     </div>
-                    <div class="card col-6">
+                    <div class="card col-5">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg"
                             ><img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
                             <div class="portfolio-box-caption">
-                                <div class="project-name">Project Name</div>
+                                <div class="project-name">This Website</div>
                             </div></a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">My webpage showcasing my professional and personal skills.</p>
+                        <br>
+                        <p class="card-text">Langauges: HTML, CSS, BootStrap4, Javascript</p>
                     </div>
-                    <div class="card col-6">
+                    <div class="card col-5">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg"
                             ><img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
                             <div class="portfolio-box-caption">
-                                <div class="project-name">Project Name</div>
+                                <div class="project-name">Scribble App</div>
                             </div></a>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">A software application useful for quick ideas and sketchs.</p>
+                        <br>
+                        <p class="card-text">Langauges: Python3, TKinter</p>
                     </div>
-                        <div class="card col-6">
+                    <div class="card col-5">
                             <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg"
                             ><img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
                             <div class="portfolio-box-caption">
-                                <div class="project-name">Project Name</div>
+                                <div class="project-name">Calculator Puzzle Solver</div>
                             </div></a>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">A program that can solve all puzzles for the popular mobile app "Calculator: The Game".</p>
+                            <p class="card-text">Langauges: Java</p>
                     </div>
                 </div>
             </div>
@@ -154,7 +163,7 @@
                     </div>
                     <div class="col-lg-4 mr-auto text-center">
                         <i class="fas fa-envelope fa-3x mb-3 text-muted"></i
-                        ><!-- Make sure to change the email address in BOTH the anchor text and the link target below!--><a class="d-block" href="mailto:contact@yourwebsite.com">mattpanizza3@gmail.com</a>
+                        ><!-- Make sure to change the email address in BOTH the anchor text and the link target below!--><a class="d-block" href="mailto:mattpanizza3@gmail.com">mattpanizza3@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -165,6 +174,7 @@
             <div class="container"><div class="text-center">Copyright © 2020</div></div>
         </footer>
 
+        <script src="functions.js"></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
