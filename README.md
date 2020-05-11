@@ -1,3 +1,3 @@
 # Practice-Website
-Practice website test.
-<b>Practicing making a website</b>
+<b>Practice Website Test</b>
+Practicing building a personal website.
