@@ -1,2 +1,2 @@
 # Practice-Website
-Practicing building a personal website.
+A rough version of my personal portfolio. 
