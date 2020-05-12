@@ -1,2 +1,2 @@
 # Practice-Website
-A rough version of my personal portfolio. 
+This is a rough version of a personal portfolio I am working on. 
