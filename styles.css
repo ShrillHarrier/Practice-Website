@@ -250,8 +250,7 @@ footer{
 }
 
 .paragraphdiv > p{
-  position: relative;
-	font-size: 1.5em;
+	font-size: 1.2rem;
 	color: black;
   padding-bottom: 3em;
 }
@@ -287,5 +286,13 @@ b{
   color: black !important;
   font-weight: bold !important;
 }
+
+@media (max-width:400px){
+      .paragraphdiv > p{
+  font-size: 1rem;
+  color: black;
+  padding-bottom: 3em;
+}
+    }
 
 
