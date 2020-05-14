@@ -250,9 +250,10 @@ footer{
 }
 
 .paragraphdiv > p{
-	font-size: 1.7em;
+  position: relative;
+	font-size: 1.6em;
 	color: black;
-  padding-bottom: 3rem;
+  padding-bottom: 3em;
 }
 
 #about{
