@@ -217,7 +217,7 @@ footer{
 .jumbotron{
 	height: 30rem;
 	margin: -5.1rem;
-	padding-top: 0px;
+	padding-top: 0.5rem;
 	background-color: lightgray;
 	background-image: linear-gradient(to bottom right, gray, lightgray);
 }
@@ -287,12 +287,14 @@ b{
   font-weight: bold !important;
 }
 
-@media (max-width:400px){
+@media (max-width:480px){
       .paragraphdiv > p{
   font-size: 1rem;
   color: black;
   padding-bottom: 3rem;
 }
     }
+
+
 
 
